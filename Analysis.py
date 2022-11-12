@@ -30,9 +30,6 @@ print(df['housing_median_age'].mean())
 print(df['housing_median_age'].median())
 print(df['housing_median_age'].std())
 
-Skewed=3*(28.63-29.0)/12.58
-print(Skewed)
-
 #Show with the help of visualization, how median_income and median_house_values are related?
 sns.scatterplot(x='median_house_value',y='median_income',data=df,color='grey')
 plt.show()
